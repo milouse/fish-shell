@@ -107,15 +107,15 @@ msgstr ""
 "Project-Id-Version: 1.2.8POT-Creation-Date: 2006-07-10 13:44-0400\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 16:38+0100\n"
-"PO-Revision-Date: 2018-02-15 15:47+0100\n"
-"Last-Translator: David Guyot <david.guyot@europecamions-interactive.com>\n"
+"PO-Revision-Date: 2024-09-27 13:25+0200\n"
+"Last-Translator: Étienne Pflieger\n"
 "Language-Team: français <david.guyot@europecamions-interactive.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: src/builtins/set.rs:696
 msgid "$%ls: originally inherited as |%ls|\n"
@@ -127,15 +127,15 @@ msgstr ""
 
 #: src/parse_util.rs:1585
 msgid "$status is not valid as a command. See `help conditions`"
-msgstr ""
+msgstr "$status n’est pas valide en tant que commande. Voir `help conditions`"
 
 #: src/complete.rs:66:static ABBR_DESC
 msgid "Abbreviation: %ls"
-msgstr ""
+msgstr "Abbreviation : %ls"
 
 #: src/builtins/string/split.rs:172
 msgid "--allow-empty is only valid with --fields"
-msgstr ""
+msgstr "--allow-empty est valide seulement avec --fields"
 
 #: src/proc.rs:1392
 msgid "Always"
@@ -143,15 +143,15 @@ msgstr "Toujours"
 
 #: src/env/var.rs:32
 msgid " a path variable"
-msgstr ""
+msgstr " une variable de chemin"
 
 #: src/builtins/test.rs:812
 msgid "Argument is not a number: '%ls'"
-msgstr ""
+msgstr "Cet argument n’est pas un nombre : '%ls'"
 
 #: src/expand.rs:674
 msgid "array indices start at 1, not 0."
-msgstr ""
+msgstr "les indices de tableau commencent à 1 et non à 0."
 
 #: src/proc.rs:1195
 msgid "A second attempt to exit will terminate them.\n"
@@ -159,7 +159,7 @@ msgstr "Une seconde tentative d’arrêt les terminera.\n"
 
 #: src/builtins/shared.rs:480
 msgid "Block of code to run conditionally"
-msgstr ""
+msgstr "Bloc de code à exécuter de manière conditionnelle"
 
 #: src/builtins/history.rs:302
 msgid "builtin history delete --exact requires --case-sensitive\n"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: src/wutil/mod.rs:145
 msgid "directory"
-msgstr ""
+msgstr "dossier"
 
 #: src/wildcard.rs:29:static COMPLETE_DIRECTORY_SYMLINK_DESC
 msgid "dir symlink"
@@ -323,7 +323,7 @@ msgstr ""
 
 #: src/tinyexpr.rs:111
 msgid "Division by zero"
-msgstr ""
+msgstr "Division par zéro"
 
 #: src/builtins/shared.rs:484
 msgid "Edit command specific completions"
@@ -363,7 +363,7 @@ msgstr "--entire et --index sont mutuellement exclusifs"
 
 #: src/builtins/ulimit.rs:37
 msgid "error\n"
-msgstr ""
+msgstr "erreur\n"
 
 #: src/bin/fish.rs:671
 msgid "Error reading script file '%s':"
@@ -2000,11 +2000,11 @@ msgstr "Bienvenue dans fish, le shell amical et interactif"
 
 #: share/functions/fish_greeting.fish:2
 msgid "Type %shelp%s for instructions on how to use fish"
-msgstr ""
+msgstr "Tapez %shelp%s pour obtenir des instructions sur l’usage de fish"
 
 #: share/functions/fish_greeting.fish:3
 msgid "fish is running in private mode, history will not be persisted."
-msgstr ""
+msgstr "fish s’exécute en mode privé, l’historique ne sera pas sauvegardé."
 
 #: share/functions/fish_job_summary.fish:1
 msgid "fish: Job %s, '%s' has stopped\\n"
